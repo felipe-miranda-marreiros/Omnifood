@@ -24,6 +24,7 @@ Accents:
 Greys:
 #555
 #333
+#f8d8bd
 
 --- 05 Shadows
 --- 06 Border-Radius
@@ -44,15 +45,49 @@ body{
     font-weight: 400;
     color: #555;
 }
+.section-hero{
+    background-color: #f8d8bd;
+    padding: 9.6rem 0;
+}
 .hero{
     max-width: 130rem;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
     align-items: center;
 }
 .hero-img{
     width: 100%;
+}
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    background-color: #e67e22;
+    font-size: 2rem;
+    color: #fff;
+    padding: 1.6rem 3.2rem;
+    border-radius: 9px;
+    text-decoration: none;
+}
+.btn--full:link,
+.btn--fll:visited{
+    background-color: #e67e22;
+}
+.btn--full:hover,
+.btn--fll:active{
+    background-color: #cf711f;
+}
+.btn--outline:link,
+.btn--outline:visited{
+    background-color: #fff;
+    color: #555;
+}
+.btn--outline:hover,
+.btn--outline:active{
+    background-color: #fdf2e9;
+    /*usando box-shadow para criar efeito de bordas com valor inset*/
+    box-shadow: inset 0 0 0 3px #fff;
 }
 .heading-primary{
     font-size: 5.2rem;
