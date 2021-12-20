@@ -1,5 +1,42 @@
+/*
+
+--- 01 - Typografy System
+
+-- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- Font weights:
+Default: 400
+
+-- Line heights:
+Default: 1
+
+--- 03 Spacing system (px):
+2 / 4 / 8 / 22 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--- 04 COLORS
+
+Primary: #e67e22
+
+Tints:
+Shades:
+Accents:
+Greys:
+#555
+
+--- 05 Shadows
+--- 06 Border-Radius
+--- 07 Whitespace
+2 / 4 / 8 / 22 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
 }
