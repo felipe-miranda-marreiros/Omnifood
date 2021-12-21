@@ -287,4 +287,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    
+}
+.step-img-box::before,
+.step-img-box::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.step-img-box::before{
+    z-index: -2;
+    background-color: #fdf2e9;
+    width: 60%;
+    /*padding de 60% da largura parente*/
+    padding-bottom: 60%;
+}
+.step-img-box::after{
+    width: 45%;
+    padding-bottom: 50%;
+    background-color: #fae5d3;
+    z-index: -1;
 }
