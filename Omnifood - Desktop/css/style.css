@@ -69,6 +69,8 @@ body{
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
     text-decoration: none;
+    /*transition é colocado no estado original*/
+    transition: background-color 0.3s;
 }
 .btn--full:link,
 .btn--fll:visited{
