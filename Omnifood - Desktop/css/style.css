@@ -31,6 +31,8 @@ Greys:
 --- 07 Whitespace
 2 / 4 / 8 / 22 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -40,7 +42,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
@@ -65,6 +67,7 @@ body{
     display: inline-block;
     background-color: #e67e22;
     font-size: 2rem;
+    font-weight: 600;
     color: #fff;
     padding: 1.6rem 3.2rem;
     border-radius: 9px;
