@@ -104,3 +104,6 @@ body{
     line-height: 1.5;
     margin-bottom: 4.8rem;
 }
+.margin-right-sm{
+    margin-right: 1.6rem !important;
+}
