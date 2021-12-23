@@ -35,6 +35,7 @@ Greys:
 #555
 #333
 #f8d8bd
+#6f6f6f
 
 --- 05 Shadows
 --- 06 Border-Radius
@@ -494,7 +495,7 @@ strong{
 }
 .testimonial-name{
     font-size: 1.6rem;
-    color: #777;
+    color: #6f6f6f;
 }
 /*Gallery starts here*/
 .gallery{
