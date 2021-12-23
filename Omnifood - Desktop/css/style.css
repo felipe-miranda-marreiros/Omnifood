@@ -451,3 +451,6 @@ strong{
     color: #cf711f;
     border-bottom: 1px solid transparent;
 }
+.center-text{
+    text-align: center;
+}
