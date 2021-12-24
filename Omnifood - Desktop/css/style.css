@@ -38,6 +38,7 @@ Greys:
 #6f6f6f
 
 --- 05 Shadows
+Default: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
 --- 06 Border-Radius
 Default: 9px
 Medium: 11px
@@ -624,4 +625,32 @@ strong{
 .feature-text{
     font-size: 1.8rem;
     line-height: 1.8;
+}
+/********************/
+/*Feature section ends here*/
+/********************/
+
+/********************/
+/*Call to Action section starts here*/
+/********************/
+
+.section-cta{
+    padding: 9.6rem 0;
+}
+.cta{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* background-color: #e67e22; */
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    height: 50rem;
+    border-radius: 11px;
+    background-image: linear-gradient(to right bottom,#eb984e, #e67e22);
+    overflow: hidden;
+}
+.cta-text-box{
+}
+.cta-img-box{
+    background-image: linear-gradient(to right bottom,rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url(../eating.jpg);
+    background-size:cover;
+    background-position:center;   
 }
