@@ -87,4 +87,47 @@
     .btn--form{
         margin-top: 1.2rem;
     }
+    /*Mobile nav*/
+    .btn-mobile-nav{
+        display: block;
+    }
+    .main-nav{
+        background-color: rgba(255, 255, 255, 0.692);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        /*usamos opacity para esconder o elemento*/
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+    .nav-open .main-nav{
+        /*usando javascript podemos ativar e desativar a classe nav-open que irá mostrar a barra de navegação para mobile*/
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+    }
+    .nav-open .icon-mobile-nav[name="close-outline"]{
+        display: block;
+    }
+    .nav-open .icon-mobile-nav[name="menu-outline"]{
+        display: none;
+    }
+    /*ocultar o navbar*/
+    .main-nav-list{
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+    .main-nav-link:link,
+    .main-nav-link:visited{
+        font-size: 3rem;
+    }    
 }
