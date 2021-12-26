@@ -1,1 +1,14 @@
 /*1366 para notebooks*/
+
+/*abaixo de 1344*/
+@media (max-width: 84em){
+    .hero{
+        max-width: 120rem;
+    }
+    .heading-primary{
+        font-size: 4.2rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
