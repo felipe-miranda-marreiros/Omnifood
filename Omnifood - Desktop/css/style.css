@@ -44,6 +44,7 @@ Default: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
 --- 06 Border-Radius
 Default: 9px
 Medium: 11px
+
 --- 07 Whitespace
 2 / 4 / 8 / 22 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
@@ -96,6 +97,9 @@ strong{
 }
 .grid--4-cols{
     grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols{
+    grid-template-columns: repeat(5, 1fr);
 }
 .section-how{
     padding: 9.6rem 0;
@@ -644,7 +648,7 @@ strong{
 /********************/
 
 .section-cta{
-    padding: 9.6rem 0;
+    padding: 4.8rem 0 12.8rem 0;
 }
 .cta{
     display: grid;
@@ -712,4 +716,72 @@ strong{
 .cta *:focus{
     outline: none;
     box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+/********************/
+/*Call to Action section ends here*/
+/********************/
+
+/********************/
+/*Footer section starts here*/
+/********************/
+
+.footer{
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+}
+.grid--footer{
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.logo-col{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo{
+    display: block;
+    margin-bottom: 3.2rem;
+}
+.footer-heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+.contacts{
+    font-size: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.address-col p{
+    margin-bottom: 2.4rem;
+}
+.social-links{
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+}
+.social-icon{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+.copyright{
+    font-size: 1.4rem;
+    color: #767676;
+    line-height: 1.6;
+    margin-top: auto;
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.footer-link:link,
+.footer-link:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+.footer-link:hover,
+.footer-link:active{
+    color: #555;
 }
