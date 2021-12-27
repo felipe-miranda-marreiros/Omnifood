@@ -33,3 +33,23 @@ allLinks.forEach(function(link) {
         }
     });
 });
+
+const sectionHeroEl = document.querySelector(".section-hero")
+
+const obeserver = new IntersectionObserver(function (entries) {
+    const ent = entries[0];
+    if (ent.isIntersecting === false){
+        document.body.classList.add('sticky');
+    }
+    if (ent.isIntersecting === true){
+        document.body.classList.remove('sticky');
+    }
+},
+    {
+    //viewport
+    root: null,
+    threshold: 0,
+    rootMargin: '-80px'
+    }
+)
+obeserver.observe(sectionHeroEl);
